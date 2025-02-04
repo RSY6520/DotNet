@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "qIaEXeslLWc0yn5xmClgQvrj+az+BW+RhB9nlv1uPfQ=",
+  "Source": "StatusAndHeader",
+  "BasePath": "_content/StatusAndHeader",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
