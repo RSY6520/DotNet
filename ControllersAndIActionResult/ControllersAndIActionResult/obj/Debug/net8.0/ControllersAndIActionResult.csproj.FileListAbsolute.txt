@@ -28,3 +28,4 @@ C:\Users\rsy65\OneDrive\Desktop\DOTNET\ControllersAndIActionResult\ControllersAn
 C:\Users\rsy65\OneDrive\Desktop\DOTNET\ControllersAndIActionResult\ControllersAndIActionResult\obj\Debug\net8.0\ControllersAndIActionResult.pdb
 C:\Users\rsy65\OneDrive\Desktop\DOTNET\ControllersAndIActionResult\ControllersAndIActionResult\obj\Debug\net8.0\ControllersAndIActionResult.genruntimeconfig.cache
 C:\Users\rsy65\OneDrive\Desktop\DOTNET\ControllersAndIActionResult\ControllersAndIActionResult\obj\Debug\net8.0\ref\ControllersAndIActionResult.dll
+C:\Users\rsy65\OneDrive\Desktop\DOTNET\ControllersAndIActionResult\ControllersAndIActionResult\bin\Debug\net8.0\ControllersAndIActionResult.staticwebassets.runtime.json

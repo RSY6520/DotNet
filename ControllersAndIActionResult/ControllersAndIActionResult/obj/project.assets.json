@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\ControllersAndIActionResult\\ControllersAndIActionResult\\ControllersAndIActionResult.csproj",
-      "projectName": "ControllersAndIActionResult",
-      "projectPath": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\ControllersAndIActionResult\\ControllersAndIActionResult\\ControllersAndIActionResult.csproj",
+      "projectUniqueName": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\ControllersAndIActionResult\\ControllersAndIActionResult\\Controllers.csproj",
+      "projectName": "Controllers",
+      "projectPath": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\ControllersAndIActionResult\\ControllersAndIActionResult\\Controllers.csproj",
       "packagesPath": "C:\\Users\\rsy65\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\ControllersAndIActionResult\\ControllersAndIActionResult\\obj\\",
       "projectStyle": "PackageReference",

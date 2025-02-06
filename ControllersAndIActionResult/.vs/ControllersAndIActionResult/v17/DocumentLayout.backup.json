@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{A4B8BB3E-F98C-4FB8-9369-84DEEC41873B}|ControllersAndIActionResult\\ControllersAndIActionResult.csproj|solutionrelative:controllersandiactionresult\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4B8BB3E-F98C-4FB8-9369-84DEEC41873B}|ControllersAndIActionResult\\ControllersAndIActionResult.csproj|c:\\users\\rsy65\\onedrive\\desktop\\dotnet\\controllersandiactionresult\\controllersandiactionresult\\controllersandiactionresult.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A4B8BB3E-F98C-4FB8-9369-84DEEC41873B}|ControllersAndIActionResult\\ControllersAndIActionResult.csproj|solutionrelative:controllersandiactionresult\\controllersandiactionresult.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A4B8BB3E-F98C-4FB8-9369-84DEEC41873B}|ControllersAndIActionResult\\ControllersAndIActionResult.csproj|c:\\users\\rsy65\\onedrive\\desktop\\dotnet\\controllersandiactionresult\\controllersandiactionresult\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4B8BB3E-F98C-4FB8-9369-84DEEC41873B}|ControllersAndIActionResult\\ControllersAndIActionResult.csproj|solutionrelative:controllersandiactionresult\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B8BB3E-F98C-4FB8-9369-84DEEC41873B}|ControllersAndIActionResult\\ControllersAndIActionResult.csproj|c:\\users\\rsy65\\onedrive\\desktop\\dotnet\\controllersandiactionresult\\controllersandiactionresult\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B8BB3E-F98C-4FB8-9369-84DEEC41873B}|ControllersAndIActionResult\\ControllersAndIActionResult.csproj|solutionrelative:controllersandiactionresult\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B8BB3E-F98C-4FB8-9369-84DEEC41873B}|ControllersAndIActionResult\\ControllersAndIActionResult.csproj|c:\\users\\rsy65\\onedrive\\desktop\\dotnet\\controllersandiactionresult\\controllersandiactionresult\\controllersandiactionresult.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A4B8BB3E-F98C-4FB8-9369-84DEEC41873B}|ControllersAndIActionResult\\ControllersAndIActionResult.csproj|solutionrelative:controllersandiactionresult\\controllersandiactionresult.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +26,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\ControllersAndIActionResult\\ControllersAndIActionResult\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "ControllersAndIActionResult\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\ControllersAndIActionResult\\ControllersAndIActionResult\\Models\\Person.cs",
+              "RelativeToolTip": "ControllersAndIActionResult\\Models\\Person.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T14:38:29.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\ControllersAndIActionResult\\ControllersAndIActionResult\\Program.cs",
               "RelativeDocumentMoniker": "ControllersAndIActionResult\\Program.cs",
               "ToolTip": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\ControllersAndIActionResult\\ControllersAndIActionResult\\Program.cs",
               "RelativeToolTip": "ControllersAndIActionResult\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T04:23:37.698Z",
               "EditorCaption": ""
@@ -45,20 +62,20 @@
               "RelativeDocumentMoniker": "ControllersAndIActionResult\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\ControllersAndIActionResult\\ControllersAndIActionResult\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ControllersAndIActionResult\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAIwEMAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAqwEIAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T04:21:29.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ControllersAndIActionResult",
+              "DocumentIndex": 3,
+              "Title": "ControllersAndIActionResult.csproj",
               "DocumentMoniker": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\ControllersAndIActionResult\\ControllersAndIActionResult\\ControllersAndIActionResult.csproj",
               "RelativeDocumentMoniker": "ControllersAndIActionResult\\ControllersAndIActionResult.csproj",
               "ToolTip": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\ControllersAndIActionResult\\ControllersAndIActionResult\\ControllersAndIActionResult.csproj",
               "RelativeToolTip": "ControllersAndIActionResult\\ControllersAndIActionResult.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-02-06T04:15:13.277Z",
               "EditorCaption": ""

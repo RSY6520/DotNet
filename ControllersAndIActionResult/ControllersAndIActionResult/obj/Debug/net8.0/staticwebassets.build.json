@@ -1,12 +1,125 @@
 {
   "Version": 1,
-  "Hash": "oLuRyaA50lhGlbliXwtor4cB+AqWfvgKNralHjfpNdw=",
+  "Hash": "YeIVGuba9gO9LIrbvm6ydZFVEz1qZ6Tk/FxYk4Dh97s=",
   "Source": "ControllersAndIActionResult",
   "BasePath": "_content/ControllersAndIActionResult",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ControllersAndIActionResult\\wwwroot",
+      "Source": "ControllersAndIActionResult",
+      "ContentRoot": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\ControllersAndIActionResult\\ControllersAndIActionResult\\wwwroot\\",
+      "BasePath": "_content/ControllersAndIActionResult",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\ControllersAndIActionResult\\ControllersAndIActionResult\\wwwroot\\sample.pdf",
+      "SourceId": "ControllersAndIActionResult",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\ControllersAndIActionResult\\ControllersAndIActionResult\\wwwroot\\",
+      "BasePath": "_content/ControllersAndIActionResult",
+      "RelativePath": "sample#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bjb4kfyqr8",
+      "Integrity": "Z+OwsIu79l5wZ+6/gMQmwFuQa7Dwz67np3s4aqBPSa8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sample.pdf"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "sample.bjb4kfyqr8.pdf",
+      "AssetFile": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\ControllersAndIActionResult\\ControllersAndIActionResult\\wwwroot\\sample.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1025"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z+OwsIu79l5wZ+6/gMQmwFuQa7Dwz67np3s4aqBPSa8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Feb 2025 04:49:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bjb4kfyqr8"
+        },
+        {
+          "Name": "label",
+          "Value": "sample.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z+OwsIu79l5wZ+6/gMQmwFuQa7Dwz67np3s4aqBPSa8="
+        }
+      ]
+    },
+    {
+      "Route": "sample.pdf",
+      "AssetFile": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\ControllersAndIActionResult\\ControllersAndIActionResult\\wwwroot\\sample.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1025"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z+OwsIu79l5wZ+6/gMQmwFuQa7Dwz67np3s4aqBPSa8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Feb 2025 04:49:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z+OwsIu79l5wZ+6/gMQmwFuQa7Dwz67np3s4aqBPSa8="
+        }
+      ]
+    }
+  ]
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using ControllersAndIActionResult.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ControllersAndIActionResult.Controllers
@@ -25,7 +26,7 @@ namespace ControllersAndIActionResult.Controllers
             return "Hello from About";
         }
 
-        [Route("contact")]
+        [Route("contact-us/{mobile:regex(^\\d{{10}}$)}")]
         public string Contact()
         {
             return "Hello from contact";
@@ -37,57 +38,34 @@ namespace ControllersAndIActionResult.Controllers
             Person person = new Person()
             {
                 Id = Guid.NewGuid(),
-                FirstName = "James",
-                LastName = "Smith",
-                Age = 25
+                FirstName = "Ramakant",
+                LastName = "Yadav",
+                Age = 15
             };
-
             return Json(person);
         }
 
         [Route("file-download")]
-        public VirtualFileResult FileDownload()
+        public VirtualFileResult FileDownload() 
         {
-            return File("/sample.pdf", "application/pdf");  // Serves from wwwroot
+            //return new VirtualFileResult("/sample.pdf", "application/pdf");
+            return File("/sample.pdf", "application/pdf");
         }
 
         [Route("file-download2")]
-        public PhysicalFileResult FileDownload2()
+        public PhysicalFileResult FileDownload2() 
         {
-            return PhysicalFile(@"c:\aspnetcore\sample.pdf", "application/pdf"); // Full path
+            //return new PhysicalFileResult(@"C:\Users\rsy65\Downloads\sample2.pdf", "application/pdf");
+            return PhysicalFile(@"C:\Users\rsy65\Downloads\sample2.pdf", "application/pdf");
         }
 
         [Route("file-download3")]
         public FileContentResult FileDownload3()
         {
-            byte[] bytes = System.IO.File.ReadAllBytes(@"c:\aspnetcore\sample.pdf");
-            return File(bytes, "application/pdf");  // In-memory bytes
+            byte[] bytes = System.IO.File.ReadAllBytes(@"C:\Users\rsy65\Downloads\sample2.pdf");
+            //return new FileContentResult(bytes, "application/pdf");
+            return File(bytes, "application/pdf");
         }
 
-        [Route("book")]
-        public IActionResult Book()
-        {
-            // Book id should be applied
-            if (!Request.Query.ContainsKey("bookid"))
-            {
-                Response.StatusCode = 400; // Setting status code manually
-                return Content("Book id is not supplied");
-            }
-
-            // ... other validation checks ...
-
-            // If all checks pass
-            return File("/sample.pdf", "application/pdf");
-        }
-
-        
-    }
-
-    public class Person
-    {
-        public Guid Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public int Age { get; set; }
     }
 }
