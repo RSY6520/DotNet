@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "sample.bjb4kfyqr8.pdf",
+      "AssetFile": "sample.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1025"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z+OwsIu79l5wZ+6/gMQmwFuQa7Dwz67np3s4aqBPSa8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Feb 2025 04:49:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bjb4kfyqr8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z+OwsIu79l5wZ+6/gMQmwFuQa7Dwz67np3s4aqBPSa8="
+        },
+        {
+          "Name": "label",
+          "Value": "sample.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "sample.pdf",
+      "AssetFile": "sample.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1025"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z+OwsIu79l5wZ+6/gMQmwFuQa7Dwz67np3s4aqBPSa8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Feb 2025 04:49:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z+OwsIu79l5wZ+6/gMQmwFuQa7Dwz67np3s4aqBPSa8="
+        }
+      ]
+    }
+  ]
+}
