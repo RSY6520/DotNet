@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "excc8I132BWfO1AA3n+zQl1JI2Kzd7tHLgktmKpphpE=",
+  "Source": "IActionResultExample",
+  "BasePath": "_content/IActionResultExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "IActionResultExample\\wwwroot",
+      "Source": "IActionResultExample",
+      "ContentRoot": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\Model Binding And Validations\\Query String vs Route Data\\IActionResultExample\\IActionResultExample\\wwwroot\\",
+      "BasePath": "_content/IActionResultExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

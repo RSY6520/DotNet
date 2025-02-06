@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\Model Binding And Validations\\Query String vs Route Data\\IActionResultExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FB40E77-1DF7-439E-BEF8-571A0D52E8CC}|IActionResultExample\\IActionResultExample.csproj|c:\\users\\rsy65\\onedrive\\desktop\\dotnet\\model binding and validations\\query string vs route data\\iactionresultexample\\iactionresultexample\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FB40E77-1DF7-439E-BEF8-571A0D52E8CC}|IActionResultExample\\IActionResultExample.csproj|solutionrelative:iactionresultexample\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FB40E77-1DF7-439E-BEF8-571A0D52E8CC}|IActionResultExample\\IActionResultExample.csproj|c:\\users\\rsy65\\onedrive\\desktop\\dotnet\\model binding and validations\\query string vs route data\\iactionresultexample\\iactionresultexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FB40E77-1DF7-439E-BEF8-571A0D52E8CC}|IActionResultExample\\IActionResultExample.csproj|solutionrelative:iactionresultexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FB40E77-1DF7-439E-BEF8-571A0D52E8CC}|IActionResultExample\\IActionResultExample.csproj|c:\\users\\rsy65\\onedrive\\desktop\\dotnet\\model binding and validations\\query string vs route data\\iactionresultexample\\iactionresultexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FB40E77-1DF7-439E-BEF8-571A0D52E8CC}|IActionResultExample\\IActionResultExample.csproj|solutionrelative:iactionresultexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StoreController.cs",
+              "DocumentMoniker": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\Model Binding And Validations\\Query String vs Route Data\\IActionResultExample\\IActionResultExample\\Controllers\\StoreController.cs",
+              "RelativeDocumentMoniker": "IActionResultExample\\Controllers\\StoreController.cs",
+              "ToolTip": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\Model Binding And Validations\\Query String vs Route Data\\IActionResultExample\\IActionResultExample\\Controllers\\StoreController.cs",
+              "RelativeToolTip": "IActionResultExample\\Controllers\\StoreController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T20:26:50.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\Model Binding And Validations\\Query String vs Route Data\\IActionResultExample\\IActionResultExample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "IActionResultExample\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\Model Binding And Validations\\Query String vs Route Data\\IActionResultExample\\IActionResultExample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "IActionResultExample\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T20:19:54.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\Model Binding And Validations\\Query String vs Route Data\\IActionResultExample\\IActionResultExample\\Program.cs",
+              "RelativeDocumentMoniker": "IActionResultExample\\Program.cs",
+              "ToolTip": "C:\\Users\\rsy65\\OneDrive\\Desktop\\DOTNET\\Model Binding And Validations\\Query String vs Route Data\\IActionResultExample\\IActionResultExample\\Program.cs",
+              "RelativeToolTip": "IActionResultExample\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T20:17:29.153Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
