@@ -11,5 +11,10 @@ namespace ModelValidations.Models
         public string? Password { get; set; }
         public string? ConfirmPassword { get; set; }
         public double? Price { get; set; }
+
+        public override string ToString()
+        {
+            return $"Person Object: {PersonName} {Email} {Phone} {Price}";
+        }
     }
 }
