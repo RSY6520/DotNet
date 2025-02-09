@@ -1,0 +1,24 @@
+﻿<h1>Home</h1>
+
+@{
+	ListModel listModel = new ListModel();
+	listModel.ListTitle = "Contries";
+	listModel.ListItems = new List<string> { "India", "USA", "UK", "Australia", "Canada" };
+}
+
+<partial name="_ListPartialView" model="listModel" />
+
+<button class="button button-blue-back" type="button" id="button-load">Load Programming Languages</button>
+
+<div class="box programming-languages-content">
+</div>
+
+<script>
+	document.querySelector("#button-load").addEventListener("click", function () {
+		fetch("programming-languages")
+			.then(response => response.text())
+			.then(data => {
+				document.querySelector(".programming-languages-content").innerHTML = data;
+			});
+	});
+</script>

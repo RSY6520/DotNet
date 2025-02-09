@@ -1,8 +1,8 @@
-﻿namespace StronglyTypedPartialViews.Models
+﻿namespace StronglyTypedPartialVies.Models
 {
     public class ListModel
     {
-        public string ListTitle { get; set; } = "";
+        public string ListTitle { get; set; }
         public List<string> ListItems { get; set; } = new List<string>();
     }
 }
