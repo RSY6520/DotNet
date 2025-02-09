@@ -1,11 +1,151 @@
-﻿﻿
+﻿@using ViewsExample.Models;
+@{
+    string appTitle = "Asp.Net Core Demo App";
+    // Person person = new Person() { Name = "John", DateOfBirth = Convert.ToDateTime("2014-07-07") };
+    // Person person = new Person() { Name = "John", DateOfBirth = null };
+    Person person = new Person() { Name = "John", DateOfBirth = null, PersonGender = Gender.Female };
+
+    List<Person> persons = new List<Person>() {
+        new Person() { Name = "Linda", DateOfBirth = DateTime.Parse("2002-05-06"), PersonGender = Gender.Male },
+        new Person() { Name = "Seema", DateOfBirth = DateTime.Parse("2005-05-06"), PersonGender = Gender.Female },
+        new Person() { Name = "Susan", DateOfBirth = DateTime.Parse("2009-05-06"), PersonGender = Gender.Other }
+    };
+}
+
+@functions {
+    double? getAge(DateTime? dateofbirth) {
+        if (dateofbirth is not null)
+        {
+            return Math.Round((DateTime.Now - dateofbirth.Value).TotalDays / 365.25);
+        }
+        else return null;
+    }
+
+    int x = 10;
+
+    string Name { get; set; } = "Hello Name";
+
+}
+
+@{
+    string alertMessage = $"<script>alert('{persons.Count} people found')</script>";
+}
+
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Asp.Net Core App</title>
+    @* <title>@appTitle</title> *@
+    <title>@ViewBag.appTitle</title>
     <meta charset="utf-8" />
+    <link href="~/StyleSheet.css" rel="stylesheet"/>
 </head>
 <body>
+    @Html.Raw(alertMessage);
     Welcome
+    <h2>@person.Name</h2>
+    @* <h3>@age</h3> *@
+
+    @* @{ *@
+    @*     double age = Math.Round((DateTime.Now - person.DateOfBirth).TotalDays / 365.25); *@
+    @* } *@
+    @if (person.DateOfBirth.HasValue) {
+        double age = Math.Round((DateTime.Now - person.DateOfBirth).Value.TotalDays / 365.25);
+        <h3>@age years old</h3>
+    }
+    else {
+        <h3>Date of Birth is unknown</h3>
+    }
+
+    @switch(person.PersonGender) {
+        case Gender.Male:
+            <p>November 19 is International Men's Day</p>
+            ;
+            break;
+        case Gender.Female:
+            <p>March 8 is International Women't Day</p>
+            ;
+            break;
+        case Gender.Other:
+            <p>March 31 Transgender day</p>
+            ;
+            break;
+    }
+
+    @foreach(var listperson in persons) {
+        <div>
+            @listperson.Name
+            <span>, </span>
+            <span>@listperson.PersonGender</span>
+            @if (listperson.DateOfBirth != null)
+            {
+                <span>@listperson.DateOfBirth.Value.ToString("mm/dd/yyyy")</span>
+            }
+        </div>
+    }
+
+    @for(int i = 0; i <= 2; i++) {
+
+        Person p2 = persons[i];
+        @: Hello to
+        <div>
+            @p2.Name
+            <span>, </span>
+            <span>@p2.PersonGender</span>
+            @if (p2.DateOfBirth != null)
+            {
+                <span>@p2.DateOfBirth.Value.ToString("mm/dd/yyyy")</span>
+            }
+            <h1>Age @getAge(p2.DateOfBirth)</h1>
+        </div>
+    }
+
+    <h2>Welcome to @Name</h2>
+
+    <div class="page-content">
+        @{
+            List<Person>? people = (List<Person>?)ViewData["people"];
+        }
+        @foreach(Person p4 in people) {
+            <div class="box float-left w-50">
+                <h3>@p4.Name</h3>
+                <table class="table w-50">
+                    <tbody>
+                        <tr>
+                            <td>Gender</td>
+                            <td>@p4.PersonGender</td>
+                        </tr>
+                        <tr>
+                            <td>Date of Birth</td>
+                            <td>@p4.DateOfBirth.Value.ToString("MM/dd/YYYY")</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        }
+    </div>
+
+    <h2>By ViewBag</h2>
+    <div class="page-content">
+        @foreach (Person p4 in ViewBag.people)
+        {
+            <div class="box float-left w-50">
+                <h3>@p4.Name</h3>
+                <table class="table w-50">
+                    <tbody>
+                        <tr>
+                            <td>Gender</td>
+                            <td>@p4.PersonGender</td>
+                        </tr>
+                        <tr>
+                            <td>Date of Birth</td>
+                            <td>@p4.DateOfBirth.Value.ToString("MM/dd/YYYY")</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        }
+    </div>
+    
 </body>
 </html>
